@@ -24,4 +24,3 @@ def now_serving(x)
     puts next_up
   end
 end
-    
