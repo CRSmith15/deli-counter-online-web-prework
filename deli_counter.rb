@@ -21,6 +21,7 @@ def now_serving(x)
     puts "There is nobody waiting to be served!"
   else
     next_up = "Currently serving #{x.shift}."
+    puts next_up
   end
 end
     
