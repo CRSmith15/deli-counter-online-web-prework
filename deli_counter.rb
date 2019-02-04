@@ -1,1 +1,10 @@
-# Write your code here.
+def line(x)
+  if x.size == 0 
+    puts "The line is currently empty."
+  else
+     current_line = "The line is currently:"
+    x.map.with_index {|y, i| current_line << (" #{i + 1}. #{y}")}
+    puts current_line
+  end
+  
+end
