@@ -12,6 +12,6 @@ end
 def take_a_number(x,y)
 x.push(y)
 place_in_line = "Welcome, #{y}. You are number"
-x.map.with_index {z,i} place_in_line <<"#{i + 1} in line."
+x.map.with_index {i} place_in_line <<"#{i + 1} in line."
 puts place_in_line
 end
