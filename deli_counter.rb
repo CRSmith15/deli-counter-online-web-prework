@@ -15,3 +15,12 @@ place_in_line = "Welcome, #{y}. You are number "
 place_in_line << ("#{x.length} in line.")
 puts place_in_line
 end
+
+def now_serving(x)
+  if x.size == 0
+    puts "There is nobody waiting to be served!"
+  else 
+    next_up = "Currently serving #{x.shift}."
+  end
+end
+    
